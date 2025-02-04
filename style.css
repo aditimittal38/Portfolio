@@ -5,15 +5,7 @@
   box-sizing: border-box;
   
 }
-/* *,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-header {
-  top: 0;
-  left: 0;
-} */
+
 body{
   background: #080808;
   color:white;
@@ -477,6 +469,46 @@ a{
 
 /* Experience end */
 
+/* Contact start */
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#contactForm label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  display: none;
+}
+#contactForm button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#contactForm button:hover {
+  background-color: #45a049;
+}
+/* Contact End */
 
 /* Footer-section */
 footer {
